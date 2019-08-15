@@ -1,6 +1,6 @@
-Type: Note
+Note
 ------------------
 To: John
 From: Smith
 Heading: Reminder
-Body: Don't forget me this weekend!
+Body: Don't forget me this weekend

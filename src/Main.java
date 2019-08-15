@@ -11,7 +11,7 @@ public class Main {
         String receivedFile = in.next();
 
         ParsingFile parsingFile = new ParsingFile();
-        
+
         FileParser fileParser = parsingFile.determineFile(receivedFile);
 
         System.out.println("Result's file name: ");
@@ -21,3 +21,4 @@ public class Main {
 
     }
 }
+
