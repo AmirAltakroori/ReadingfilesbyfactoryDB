@@ -1,4 +1,4 @@
-Note
+Type: Note
 ------------------
 To: John
 From: Smith

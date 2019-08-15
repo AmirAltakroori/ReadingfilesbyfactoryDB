@@ -29,7 +29,9 @@ public class JSONFileParser implements FileParser {
 
             while (keys.hasNext()) {
                 String key = keys.next();
-                fileOut.println(key.substring(0, 1).toUpperCase() + key.substring(1));
+
+                String typeName = key.substring(0, 1).toUpperCase() + key.substring(1);
+                fileOut.println("Type: " + typeName);
                 fileOut.println("------------------");
 
                 JSONArray nodesList = jsonObject.getJSONArray(key);
